@@ -37,7 +37,7 @@ def rsa(waveform, tp0):
     plt.legend()
     plt.show()
 
-    return skewness
+    return(skewness)
     
 # %%
 with h5py.File('/Users/marcosanchez/Library/Mobile Documents/com~apple~CloudDocs/FA24/DSC 180A/MJD_Train_0.hdf5', 'r') as f:
